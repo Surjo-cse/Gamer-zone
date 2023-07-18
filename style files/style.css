@@ -36,13 +36,17 @@ body{
     color: #FF42A5;
 }
 
-
+span{
+    color: #FF42A5;
+}
 
 .banner{
     display: flex;
     border-radius: 5px;
+    margin: 0px auto;
     justify-content: space-around;
     align-items: center;
+    padding-left: 150px;
     background-color:   rgb(232, 241, 238);
 }
 .banner h3{
@@ -56,7 +60,7 @@ body{
     font-size: 100px;
     font-weight: 800;
     color: #FF42A5;
-    margin: 0px;
+    margin-left: 0px;
 }
 .banner li{
     color: #534C64;
@@ -78,15 +82,22 @@ body{
     background-color: #4EC5F7;;
     border: 0px;
 }
-.banner-content{
+.banner-img{
+    display: flex;
+    margin: 30px auto;
     
 }
-
-
-
-
-
-
+.game-card{
+    
+}
+.onlineGames h3{
+        font-size: 3em;
+        text-align: center;
+}
+.onlineGames P{
+    text-align: center;
+    font-size: 2em;
+}
 
 
 @media screen and (max-width:576px) {
@@ -99,9 +110,17 @@ body{
         gap: 20px;
     }
     .banner{
-        flex-direction: column;
-        background-color: white;
-        
+        flex-direction: column-reverse;
+        background-color: white;        
     }
+    .banner-img{
 
+        width: 120%;
+        flex-direction: column;
+    }
+    .banner{
+       
+        padding:20px;
+    }
+    
 }
