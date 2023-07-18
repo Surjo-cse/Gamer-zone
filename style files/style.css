@@ -1,0 +1,35 @@
+
+.nav{
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 240px;
+}
+.nav-menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-btn{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(11, 2, 35, 0.10);
+    border: 0px;
+    padding: opx 20px;
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    
+}
+#logo-font{
+    font-size: 50px;
+}
+#span-text{
+    color: #FF42A5;
+}
