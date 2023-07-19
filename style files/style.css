@@ -84,11 +84,23 @@ span{
 }
 .banner-img{
     display: flex;
-    margin: 30px auto;
-    
+    margin: 30px auto;  
+    }
+.funny-game-image{
+    display: flex;
+   justify-content: space-between;
+}
+#lion{
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 .game-card{
-    
+   display: flex; 
+   flex-direction: column;
+   text-align: center;
+}
+.onlineGames{
+    margin-top: 80px;
 }
 .onlineGames h3{
         font-size: 3em;
@@ -97,6 +109,32 @@ span{
 .onlineGames P{
     text-align: center;
     font-size: 2em;
+}
+.play-instant{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.instant-title{
+    font-size: 48px;
+    width: 80%;
+}
+.instant-description{
+    width: 80%;
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+}
+.small-img{ 
+    position: relative;
+    margin-top:-250px;
+}
+.instant-img{
+    margin-left: 200px;
+}
+.instant-text h2 p{
+    text-align: right;
 }
 
 
@@ -114,13 +152,35 @@ span{
         background-color: white;        
     }
     .banner-img{
-
         width: 120%;
         flex-direction: column;
     }
     .banner{
        
         padding:20px;
+    }
+    .funny-game-image{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .play-instant{
+        flex-direction: column-reverse;
+        /* margin-left: -150px; */
+    }
+    .instant-img{
+        width: 50%;
+        height: 100%;
+        margin-right: 200px;
+    }
+    .instant-title{
+        
+        width: 100%;
+    }
+    .instant-description{
+        width: 100%;
+        
+        
+        
     }
     
 }
