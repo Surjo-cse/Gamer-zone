@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+span{
+    color: #FF42A5;
+}
+/* nav style starts from here */
+nav{
+    background-color: white;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.nav-logo{
+    display: flex;
+    width: 50%;
+}
+.nav-logo p{
+    margin-left: 15px;
+    font-size: 40px;
+}
+.nav-items{
+   
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.span-text{
+    color: #FF42A5;
+}
+.nav-class{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+/* nav style ends here */
+
+.banner-section{
+    background-image: url("images/Group 14.png");
+    padding: 70px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lion{
+    font-size: 100px;
+    color: #FF42A5;
+}
+.banner-content{
+    padding-left: 50px;
+}
+.banner-content h3{
+    font-size: 50px;
+}
+.banner-content p{
+    padding-left: 20px;
+    font-size: 30px;
+    color: #534C64;
+}
+/* banner section style ends here */
+ .card-section{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .onlineGaming-section{
+    margin: 50px 0px;
+    text-align: center;    
+ }
+ .onlineGaming-section h2{
+    font-size: 50px;
+ }
+ .onlineGaming-section p{
+    font-size: 30px;
+    margin-bottom: 20px;
+ }
+ /* online Gaming section ends here */
+ .play-instant-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 80px auto;
+ }
+ .img2{
+    position: relative;
+    margin-top: -250px;
+ }
+ .instant-content{
+    
+    width: 80%;
+ }
+ .instant-content h2{
+    text-align: left;
+    font-size: 70px;
+    margin-bottom: 30px;
+ }
+ .instant-content p{
+    text-align: left;
+    font-size: 28px;
+ }
+ 
