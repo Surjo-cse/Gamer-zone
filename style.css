@@ -38,7 +38,7 @@ nav{
 .span-text{
     color: #FF42A5;
 }
-.nav-class{
+.nav-btn{
     padding: 15px 20px;
     border-radius: 10px;
     border: 0px;
@@ -87,6 +87,7 @@ nav{
     font-size: 30px;
     margin-bottom: 20px;
  }
+ 
  /* online Gaming section ends here */
  .play-instant-section{
     display: flex;
@@ -98,6 +99,7 @@ nav{
  .img2{
     position: relative;
     margin-top: -250px;
+    margin-left: -90px;
  }
  .instant-content{
     
@@ -112,4 +114,68 @@ nav{
     text-align: left;
     font-size: 28px;
  }
+ /* button section starts from here */
+ .group-btn{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    border-radius: 40px;
+    padding: 7px 20px;
+    background-color: white;
+ }
+ .button-section{
+    
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 20px auto;
+ }
+ .btn-section{
+    background-color:rgba(255, 66, 165, 0.03);
+    padding: 70px 0px;
+ }
+ /* button section ends here */
+ footer{
+    background-color:  #0B0223;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+ }
+ .footer-icon{
+    width: 30%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .our-other-section,  .termandCondition{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #878097;
+ }
+
+
+
+ /* hover section starts here */
+
+ .group-btn:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+ }
+
  
+
+ /* responsive section starts here */
+
+ @media  screen and(max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+ }
